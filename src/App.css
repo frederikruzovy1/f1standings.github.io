@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
+/* Color Variables */
+*{
+  --color-mercedes: #6CD3BF;
+  --color-redbull: #1E5BC6;
+  --color-ferrari: #ED1C24;
+  --color-mclaren: #F58020;
+  --color-alpine: #2293D1;
+  --color-alphatauri: #4E7C9B;
+  --color-astonmartin: #2D826D;
+  --color-williams: #37BEDD;
+  --color-alfaromeo: #B12039;
+  --color-haas: 	#B6BABD;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: var(--color-alfaromeo);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
