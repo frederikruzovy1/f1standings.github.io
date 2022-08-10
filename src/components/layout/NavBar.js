@@ -7,7 +7,7 @@ export default class
     return (
       <div>
         <navbar className="navbar navbar-expand-md navbar-dark fixed-top">
-          <a className="navbar-brand" href="#">F1 ressults</a>
+          <a className="navbar-brand col-sm-3 sol-md-2 mr-0 align-items-center ms-4" href="#">F1 ressults</a>
         </navbar>
       </div>
     )

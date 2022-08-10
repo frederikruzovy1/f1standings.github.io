@@ -12,6 +12,11 @@
   --color-haas: 	#B6BABD;
 }
 
+.App{
+  margin-top: 4rem;
+  min-height: 100vh
+}
+
 .navbar {
   background-color: var(--color-alfaromeo);
 }
