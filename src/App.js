@@ -1,6 +1,7 @@
+import './sass/styles';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './App.css';
+
 import NavBar from "./components/layout/NavBar";
 import Dashboard from "./components/layout/Dashboard";
 
