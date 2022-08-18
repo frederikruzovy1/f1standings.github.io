@@ -16,8 +16,6 @@ export default class DriverCard extends Component {
         const position = this.props.position;
         const points = this.props.points;
         const code = this.props.code
-        // const url = this.props.url;
-        // console.log(driver)
 
         return (
             <div className="col-md-3 col-sm-6 my-3">

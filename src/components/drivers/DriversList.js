@@ -13,8 +13,6 @@ export default class DriversList extends Component {
   async componentDidMount() {
     const res = await axios.get(this.state.url);
     let results = res.data.MRData.StandingsTable.StandingsLists[0].DriverStandings;
-    // console.log(results);
-    // console.log(results[0].Driver.familyName)
     this.setState({ drivers: results });
   }
 
@@ -27,7 +25,6 @@ export default class DriversList extends Component {
           {this.state.drivers.map(driver => (
             <DriverCard
             key = {driver.Driver.code}
-            // driver = {driver}
             familyName = {driver.Driver.familyName}
             code = {driver.Driver.code}
             position = {driver.position}
