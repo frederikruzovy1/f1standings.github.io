@@ -1,3 +1,30 @@
 .navbar {
-    background-color: var(--color-alfaromeo);
+    background-color: var(--color-mclaren);
+    height:50px
+  }
+
+  .navbar-logo-area {
+    height: 100px;
+    width: 100px;
+    background-color: var(--color-mclaren);
+    position: absolute;
+    // overflow: hidden
+  }
+
+  .navbar-logo-skew {
+    height: 60px;
+    width: 80px;
+    margin-left: 50px;
+    background-color: var(--color-mclaren);
+    position: absolute;
+    transform: rotate(-65deg);
+  }
+
+  .navbar-logo-area a {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../../public/images/formula-1-new-seeklogo.com.svg");
   }
