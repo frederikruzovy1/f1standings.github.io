@@ -21,7 +21,7 @@ export default class DriversList extends Component {
       <React.Fragment>
       {
         this.state.drivers ? (
-        <div className="row">
+        <div className="row drivers-card-section">
           {this.state.drivers.map(driver => (
             <DriverCard
             key = {driver.Driver.code}

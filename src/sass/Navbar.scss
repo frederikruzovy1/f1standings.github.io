@@ -8,7 +8,16 @@
     width: 100px;
     background-color: var(--color-mclaren);
     position: absolute;
-    // overflow: hidden
+  
+    a {
+      display: inline-block;
+      height: 70px;
+      width: 70px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-image: url("../../public/images/formula-1-new-seeklogo.com.svg");
+    }
+
   }
 
   .navbar-logo-skew {
@@ -17,14 +26,5 @@
     margin-left: 50px;
     background-color: var(--color-mclaren);
     position: absolute;
-    transform: rotate(-65deg);
-  }
-
-  .navbar-logo-area a {
-    display: inline-block;
-    height: 70px;
-    width: 70px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-image: url("../../public/images/formula-1-new-seeklogo.com.svg");
+    transform: rotate(-65deg)
   }

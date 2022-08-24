@@ -1,4 +1,8 @@
   .App{
-    margin-top: 4rem;
-    min-height: 100vh
-  }  
+    min-height: 100vh;
+    background: #f3f3f3;
+  }
+  
+  .container {
+    transform: skewY(-5deg)
+  }
