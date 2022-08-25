@@ -35,7 +35,7 @@ export default class DriverCard extends Component {
                         <h3>{familyName}</h3>
                     </div>
                     <div class="content">
-                    <p className="mb-2">{points} points</p>
+                    <p className="mb-2 badge text-bg-danger">{points} points</p>
                     </div>
                 </div>
             </div>

@@ -1,12 +1,14 @@
+@import 'variables.scss';
+
 .navbar {
-    background-color: var(--color-mclaren);
+    background-color: $base-yellow;
     height:50px
   }
 
   .navbar-logo-area {
     height: 100px;
     width: 100px;
-    background-color: var(--color-mclaren);
+    background-color: $base-yellow;
     position: absolute;
   
     a {
@@ -24,7 +26,7 @@
     height: 60px;
     width: 80px;
     margin-left: 50px;
-    background-color: var(--color-mclaren);
+    background-color: #fc9b0d;
     position: absolute;
     transform: rotate(-65deg)
   }

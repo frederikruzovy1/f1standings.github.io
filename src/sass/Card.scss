@@ -1,8 +1,10 @@
+@import 'variables.scss';
+
 .info-card
 {
     position: relative;
     width: 300px;
-    height: 400px;
+    height: 300px;
     background: #fff;
     transition: 0.5s;
 }
@@ -15,23 +17,24 @@
     left: 0;
     width: 100%;
     height: 15px;
-    background: #777DA7;
+    background: #ddd;
     transform-origin: bottom;
     transform: skewX(45deg);
 }
 
 .info-card::after
 {
+    box-sizing: content-box;
     content: '';
     position: absolute;
     top: -15px;
     left: -15px;
     width: 15px;
-    height: 50%;
-    background: #777DA7;
+    height: 66.6%;
+    background: #ddd;
     transform-origin: left;
     transform: skewY(45deg);
-    border-bottom: 200px solid #d9d9d9;
+    border-bottom: 100px solid #fc9b0d;
 }
 
 .info-card:hover
@@ -44,7 +47,7 @@
     position: relative;
     width: 300px;
     height: 200px;
-    background: rgb(125, 130, 175);
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,18 +62,18 @@
 .info-card .img-box h3
 {
     position: relative;
-    color: #fff;
-    margin-top: 10px;
+    color: #010100;
+    margin-top: 15px;
 }
 
 .info-card .content
 {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 100px;
     padding: 20px;
     color: #777;
-    background: #fff;
+    background: #FDB750;
     text-align: center;
 }
 
