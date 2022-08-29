@@ -1,32 +1,31 @@
-@import 'variables.scss';
+@import "variables.scss";
 
 .navbar {
-    background-color: $base-yellow;
-    height:50px
-  }
+  background-color: $base-yellow;
+  height: 50px;
+}
 
-  .navbar-logo-area {
-    height: 100px;
-    width: 100px;
-    background-color: $base-yellow;
-    position: absolute;
-  
-    a {
-      display: inline-block;
-      height: 70px;
-      width: 70px;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-image: url("../../public/images/formula-1-new-seeklogo.com.svg");
-    }
+.navbar-logo-area {
+  height: 100px;
+  width: 100px;
+  background-color: $base-yellow;
+  position: absolute;
 
+  a {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../../public/images/formula-1-new-seeklogo.com.svg");
   }
+}
 
-  .navbar-logo-skew {
-    height: 60px;
-    width: 80px;
-    margin-left: 50px;
-    background-color: $dark-yellow;
-    position: absolute;
-    transform: rotate(-65deg)
-  }
+.navbar-logo-skew {
+  height: 60px;
+  width: 80px;
+  margin-left: 50px;
+  background-color: $dark-yellow;
+  position: absolute;
+  transform: rotate(-65deg);
+}

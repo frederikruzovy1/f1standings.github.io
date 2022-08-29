@@ -1,9 +1,9 @@
-@import 'variables.scss';
-  .App{
-    min-height: 100vh;
-    background: #f3f3f3;
-  }
-  
+@import "variables.scss";
+.App {
+  min-height: 100vh;
+  background: $dark-white;
+
   .container {
-    transform: skewY(-5deg)
+    transform: skewY(-5deg);
   }
+}

@@ -1,246 +1,227 @@
-@import 'variables.scss';
+@import "variables.scss";
 
-.info-card
-{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    background: #fff;
-    transition: 0.5s;
-}
+.info-card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: $base-white;
+  transition: 0.5s;
 
-.info-card::before
-{
-    content: '';
+  &::before {
+    content: "";
     position: absolute;
     top: -15px;
     left: 0;
     width: 100%;
     height: 15px;
-    background: #ddd;
+    background: $light-grey;
     transform-origin: bottom;
     transform: skewX(45deg);
-}
+  }
 
-.info-card::after
-{
+  &::after {
     box-sizing: content-box;
-    content: '';
+    content: "";
     position: absolute;
     top: -15px;
     left: -15px;
     width: 15px;
     height: 66.6%;
-    background: #ddd;
+    background: $light-grey;
     transform-origin: left;
     transform: skewY(45deg);
     border-bottom: 100px solid $dark-yellow;
-}
+  }
 
-.info-card:hover
-{
-   transform: translateY(-20px) translateX(-20px);
-}
-    
-.info-card .img-box
-{
+  &:hover {
+    transform: translateY(-20px) translateX(-20px);
+
+    .content::before {
+      transform: translateY(40px) skewX(45deg);
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+  }
+
+  .img-box {
     position: relative;
     width: 300px;
     height: 200px;
-    background: #fff;
+    background: $base-white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
 
-.drivers-position-wrap
-{
-  width: 30px;
-  height: 30px;
-  color: #fff;
-}
+    .drivers-position-wrap {
+      width: 30px;
+      height: 30px;
+      color: $base-white;
 
-.drivers-position-wrap::before
-{
-  content: '';
-    position: absolute;
-    top: -15px;
-    left: 0;
-    width: 100%;
-    height: 15px;
-    background: #cc2333;
-    transform-origin: bottom;
-    transform: skewX(45deg);
-}
+      &::before {
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: 0;
+        width: 100%;
+        height: 15px;
+        background: $base-red;
+        transform-origin: bottom;
+        transform: skewX(45deg);
+      }
 
-.drivers-position-wrap::after
-{
-  box-sizing: content-box;
-    content: '';
-    position: absolute;
-    z-index: 1;
-    top: -15px;
-    left: -15px;
-    width: 15px;
-    // height: 100%;
-    background: #ddd;
-    transform-origin: left;
-    transform: skewY(45deg);
-    border-top: 30px solid #cc2333;
-}
+      &::after {
+        box-sizing: content-box;
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: -15px;
+        left: -15px;
+        width: 15px;
+        background: $light-grey;
+        transform-origin: left;
+        transform: skewY(45deg);
+        border-top: 30px solid $base-red;
+      }
 
-// .info-card .img-box div
-// {
-//     max-width: 200px;
-// }
+    }
 
-.info-card .img-box h3
-{
-    position: relative;
-    color: #010100;
-    margin-top: 15px;
-}
+    h3 {
+      position: relative;
+      color: $base-black;
+      margin-top: 15px;
+    }
 
-.info-card .content
-{
+    .card-img {
+      height: 100px;
+      max-width: 200px;
+      margin: 0;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+  }
+
+  .content {
     position: relative;
     width: 100%;
     height: 100px;
     padding: 20px;
-    color: #777;
     background: $base-yellow;
     text-align: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background: $card-shadow;
+      transform-origin: bottom;
+      transform: skewX(45deg);
+      transition: 0.5;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+  }
+
 }
 
-.info-card .content::before
-{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent, transparent, rgba(0,0,0,0.1));
-    transform-origin: bottom;
-    transform: skewX(45deg);
-    transition: 0.5;
-    pointer-events: none;
-    z-index: -1;
+// .info-card:nth-child(1) {
+//   z-index: 3;
+// }
+
+// .info-card:nth-child(2) {
+//   z-index: 2;
+// }
+
+// .info-card:nth-child(3) {
+//   z-index: 1;
+// }
+
+#VER {
+  background-image: url("../../public/images/redbull.png");
 }
 
-.info-card:hover .content::before
-{
-    transform: translateY(40px) skewX(45deg) ;
-    filter: blur(5px);
-    opacity: 0.5;
+#LEC {
+  background-image: url("../../public/images/ferrari.png");
 }
 
-.info-card:nth-child(1)
-{
-    z-index: 3;
+#PER {
+  background-image: url("../../public/images/redbull.png");
 }
 
-.info-card:nth-child(2)
-{
-    z-index: 2;
+#RUS {
+  background-image: url("../../public/images/mercedesamg.png");
 }
 
-.info-card:nth-child(3)
-{
-    z-index: 1;
+#SAI {
+  background-image: url("../../public/images/ferrari.png");
 }
 
-.card-img {
-    height: 100px;
-    max-width: 200px;
-    margin: 0;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  #VER {
-    background-image: url("../../public/images/redbull.png");
-  }
-  
-  #LEC {
-    background-image: url("../../public/images/ferrari.png");
-  }
-  
-  #PER {
-    background-image: url("../../public/images/redbull.png");
-  }
-  
-  #RUS {
-    background-image: url("../../public/images/mercedesamg.png");
-  }
-  
-  #SAI {
-    background-image: url("../../public/images/ferrari.png");
-  }
-  
-  #HAM {
-    background-image: url("../../public/images/mercedesamg.png");
-  }
-  
-  #NOR {
-    background-image: url("../../public/images/mclaren.png");
-  }
-  
-  #OCO {
-    background-image: url("../../public/images/alpine.png");
-  }
-  
-  #BOT {
-    background-image: url("../../public/images/alfaromeo.png");
-  }
-  
-  
-  #ALO {
-    background-image: url("../../public/images/alpine.png");
-  }
-  
-  #MAG {
-    background-image: url("../../public/images/haas.png");
-  }
-  
-  #RIC {
-    background-image: url("../../public/images/mclaren.png");
-  }
-  
-  #GAS {
-    background-image: url("../../public/images/alphatauri.png");
-  }
-  
-  #VET {
-    background-image: url("../../public/images/astonmartin.png");
-  }
-  
-  #MSC {
-    background-image: url("../../public/images/haas.png");
-  }
-  
-  #TSU {
-    background-image: url("../../public/images/alphatauri.png");
-  }
-  
-  #ZHO {
-    background-image: url("../../public/images/alfaromeo.png");
-  }
-  
-  #STR {
-    background-image: url("../../public/images/astonmartin.png");
-  }
-  
-  #ALB {
-    background-image: url("../../public/images/williams.png");
-  }
-  
-  #LAT {
-    background-image: url("../../public/images/williams.png");
-  }
-  
-  #HUL {
-    background-image: url("../../public/images/astonmartin.png");
-  }
+#HAM {
+  background-image: url("../../public/images/mercedesamg.png");
+}
+
+#NOR {
+  background-image: url("../../public/images/mclaren.png");
+}
+
+#OCO {
+  background-image: url("../../public/images/alpine.png");
+}
+
+#BOT {
+  background-image: url("../../public/images/alfaromeo.png");
+}
+
+#ALO {
+  background-image: url("../../public/images/alpine.png");
+}
+
+#MAG {
+  background-image: url("../../public/images/haas.png");
+}
+
+#RIC {
+  background-image: url("../../public/images/mclaren.png");
+}
+
+#GAS {
+  background-image: url("../../public/images/alphatauri.png");
+}
+
+#VET {
+  background-image: url("../../public/images/astonmartin.png");
+}
+
+#MSC {
+  background-image: url("../../public/images/haas.png");
+}
+
+#TSU {
+  background-image: url("../../public/images/alphatauri.png");
+}
+
+#ZHO {
+  background-image: url("../../public/images/alfaromeo.png");
+}
+
+#STR {
+  background-image: url("../../public/images/astonmartin.png");
+}
+
+#ALB {
+  background-image: url("../../public/images/williams.png");
+}
+
+#LAT {
+  background-image: url("../../public/images/williams.png");
+}
+
+#HUL {
+  background-image: url("../../public/images/astonmartin.png");
+}
