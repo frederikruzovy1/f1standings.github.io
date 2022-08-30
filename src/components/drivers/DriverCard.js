@@ -19,13 +19,13 @@ export default class DriverCard extends Component {
 
         return (
             <div className="col-md-4 col-sm-6 my-3 container">
-                <div class="info-card">
-                    <div class="img-box">
+                <div className="info-card">
+                    <div className="img-box">
                         <div className="drivers-position-wrap d-flex justify-content-center align-items-center align-self-start position-absolute top-0 start-0 bg-danger fw-bolder fs-4">{position}</div>
                         <div className="card-img" id={code}></div>
                         <h3>{familyName}</h3>
                     </div>
-                    <div class="content">
+                    <div className="content">
                     <p className="mb-2 badge text-bg-danger">{points} points</p>
                     </div>
                 </div>

@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavBar from "./components/layout/NavBar";
 import Dashboard from "./components/layout/Dashboard";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Dashboard />
         </div>
       </header>
+      <Footer />
     </div>
   );
 }
