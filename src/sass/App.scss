@@ -1,9 +1,13 @@
 @import "variables.scss";
+
 .App {
-  min-height: 100vh;
+  font-family: 'Michroma', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background: $dark-white;
 
   .container {
     transform: skewY(-5deg);
+    margin-bottom: 6em;
   }
 }
