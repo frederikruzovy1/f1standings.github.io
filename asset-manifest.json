@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7b358069.css",
-    "main.js": "/static/js/main.8393e5fc.js",
+    "main.js": "/static/js/main.307a905a.js",
     "static/js/787.5b6b5a58.chunk.js": "/static/js/787.5b6b5a58.chunk.js",
     "static/media/alpine.png": "/static/media/alpine.a8d5cd21716c87644296.png",
     "static/media/astonmartin.png": "/static/media/astonmartin.4605389a8599663fd061.png",
@@ -16,11 +16,11 @@
     "static/media/formula-1-new-seeklogo.com.svg": "/static/media/formula-1-new-seeklogo.com.63a088795d0ddbbdc468.svg",
     "index.html": "/index.html",
     "main.7b358069.css.map": "/static/css/main.7b358069.css.map",
-    "main.8393e5fc.js.map": "/static/js/main.8393e5fc.js.map",
+    "main.307a905a.js.map": "/static/js/main.307a905a.js.map",
     "787.5b6b5a58.chunk.js.map": "/static/js/787.5b6b5a58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b358069.css",
-    "static/js/main.8393e5fc.js"
+    "static/js/main.307a905a.js"
   ]
 }
