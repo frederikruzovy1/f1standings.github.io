@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b358069.css",
+    "main.js": "/static/js/main.8393e5fc.js",
+    "static/js/787.5b6b5a58.chunk.js": "/static/js/787.5b6b5a58.chunk.js",
+    "static/media/alpine.png": "/static/media/alpine.a8d5cd21716c87644296.png",
+    "static/media/astonmartin.png": "/static/media/astonmartin.4605389a8599663fd061.png",
+    "static/media/redbull.png": "/static/media/redbull.d5ab60f008dcd946a9ba.png",
+    "static/media/haas.png": "/static/media/haas.fab6bbf4e1add41d11b8.png",
+    "static/media/mclaren.png": "/static/media/mclaren.eac50c7894c2c7cbca38.png",
+    "static/media/alphatauri.png": "/static/media/alphatauri.0f1769de60952b05a8a6.png",
+    "static/media/mercedesamg.png": "/static/media/mercedesamg.4d10e76bc5125df984a4.png",
+    "static/media/williams.png": "/static/media/williams.d0c15bb51a97ca0c7a4e.png",
+    "static/media/ferrari.png": "/static/media/ferrari.ac8ee1a46bc7a61f75fc.png",
+    "static/media/alfaromeo.png": "/static/media/alfaromeo.7159205e1e3967104907.png",
+    "static/media/formula-1-new-seeklogo.com.svg": "/static/media/formula-1-new-seeklogo.com.63a088795d0ddbbdc468.svg",
+    "index.html": "/index.html",
+    "main.7b358069.css.map": "/static/css/main.7b358069.css.map",
+    "main.8393e5fc.js.map": "/static/js/main.8393e5fc.js.map",
+    "787.5b6b5a58.chunk.js.map": "/static/js/787.5b6b5a58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b358069.css",
+    "static/js/main.8393e5fc.js"
+  ]
+}
