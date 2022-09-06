@@ -6,7 +6,7 @@ import DriverCard from './DriverCard';
 export default class DriversList extends Component {
 
   state = {
-    url: 'http://ergast.com/api/f1/current/driverStandings.json',
+    url: 'https://ergast.com/api/f1/current/driverStandings.json',
     drivers: null
   };
 
@@ -34,7 +34,7 @@ export default class DriversList extends Component {
 
         </div>
         ) : (
-        <h1>Loading Drivers</h1>)
+        <h1 className="mt-5">Loading Drivers</h1>)
       }
       </React.Fragment>
     );

@@ -14,9 +14,7 @@ export default class Footer extends Component {
           </section>
         </div>
         <div className="text-center">
-          Just an app made by <img src="images/formula-1-new-seeklogo.com.svg" alt="f1 logo" width="60px" height="60px"/> fan. 
-          {/* <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> */}
-        </div>
+          Just an app made by <img src="images/formula-1-new-seeklogo.com.svg" alt="f1 logo" width="60px" height="60px"/> fan.</div>
       </footer>
     )
   }
