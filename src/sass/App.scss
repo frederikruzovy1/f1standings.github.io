@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 .App {
-  font-family: 'Michroma', sans-serif;
+  font-family: "Michroma", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: $dark-white;
@@ -9,5 +9,9 @@
   .container {
     transform: skewY(-5deg);
     margin-bottom: 6em;
+
+    @media (max-width: 576px) {
+      margin-left: 1em;
+    }
   }
 }
