@@ -2,9 +2,9 @@
   "name": "f1-driver-standings-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://frederikruzovy1.github.io",
+  "homepage": "http[s]://frederikruzovy1.github.io",
   "dependencies": {
-    "@apideck/better-ajv-errors": "^0.3.6",
+    "@apideck/better-ajv-errorgti as": "^0.3.6",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
