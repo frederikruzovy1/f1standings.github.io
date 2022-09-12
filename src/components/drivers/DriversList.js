@@ -6,7 +6,7 @@ import DriverCard from './DriverCard';
 export default class DriversList extends Component {
 
   state = {
-    url: 'https://ergast.com/api/f1/current/driverStandings.json',
+    url: 'http[s]://ergast.com/api/f1/current/driverStandings.json',
     drivers: null
   };
 
