@@ -6,12 +6,12 @@ export default class
   render() {
     return (
       <div>
-        <navbar className="navbar navbar-expand-md navbar-dark fixed-top">
+        <nav className="navbar navbar-expand-md navbar-dark fixed-top">
           <div className="navbar-logo-skew"></div>
           <div className="navbar-logo-area d-flex justify-content-start align-items-center">
             <a className="navbar-brand col-sm-3 sol-md-2 mr-0 ms-3 align-self-end" href="#"></a>
           </div>
-        </navbar>
+        </nav>
       </div>
     )
   }
